@@ -5,8 +5,9 @@ import {A, Route, Router, Routes} from "@solid-js/router";
 import Home from "./Home.mjs";
 import About from "./About.mjs";
 
-import sheet from "./style.css" assert {type: "css"};
-document.adoptedStyleSheets = [sheet];
+// experimental chrome flag only for now, apparently
+// import sheet from "./style.css" assert {type: "css"};
+// document.adoptedStyleSheets = [sheet];
 
 const App = () => {
   return html`
